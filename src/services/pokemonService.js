@@ -51,7 +51,7 @@ export const getPokemonDetail = async (nameOrId) => {
   const { data } = await api.get(`/pokemon/${nameOrId}`)
   return data
 }
-ghd
+
 /**
  * Fetch multiple Pokémon details in parallel.
  * Useful for enriching a list page with sprite images.

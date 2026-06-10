@@ -15,4 +15,3 @@ const AppRoutes = () => (
 export default AppRoutes
 
 
-AppRoutes
