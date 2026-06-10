@@ -40,4 +40,3 @@ const usePokemonDetail = (nameOrId) => {
 }
 
 export default usePokemonDetail
-

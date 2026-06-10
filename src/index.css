@@ -1,3 +1,4 @@
+/* ── Design Tokens ── */
 :root {
   --bg-base: #0d1117;
   --bg-surface: #161b22;
@@ -24,7 +25,7 @@
   --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+/* ── Reset ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -62,7 +63,7 @@ img {
   max-width: 100%;
 }
 
-
+/* ── Scrollbar ── */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -74,7 +75,7 @@ img {
   border-radius: 3px;
 }
 
-
+/* ── Animations ── */
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
@@ -100,10 +101,12 @@ img {
   to { transform: rotate(360deg); }
 }
 
+/* ── Utility ── */
 .animate-in {
   animation: fadeInUp 0.4s var(--transition) both;
 }
 
+/* ── Reduced motion ── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
