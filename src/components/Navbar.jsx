@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom'
 const Navbar = () => {
   const location = useLocation()
 
+  mjh
+  
   return (
     <nav
       style={{
